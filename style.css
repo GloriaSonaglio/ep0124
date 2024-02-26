@@ -1,0 +1,22 @@
+:root{
+    --cor_titulo: rgb(35, 35, 58);
+    --cor_fundo: rgb(132, 132, 143);
+}
+body{
+    background-color: var(--cor_fundo);
+}
+section{
+    text-align: center;
+    height: 400px;
+    margin: 30px;
+    border: solid rgb(114, 114, 131) 4px;
+}
+h1{
+    color: var(--cor_titulo);
+    text-align: center;
+}
+button{
+    padding: 10px;
+    border-radius: 10px;
+    margin: 30px;
+}
